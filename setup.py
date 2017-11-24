@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+#python setup.py bdist_wheel --universal
+
 LONG_DESCRIPTION = \
 '''
 This package contains the tikz Sphinx extension, which enables the use
@@ -8,7 +10,7 @@ of the PGF/TikZ LaTeX package to draw nice pictures.
 
 NAME         = 'sphinxcontrib-tikz'
 DESCRIPTION  = 'TikZ extension for Sphinx'
-VERSION      = '0.4.3'
+VERSION      = '0.4.5'
 AUTHOR       = 'Christoph Reller'
 AUTHOR_EMAIL = 'christoph.reller@gmail.com'
 URL          = 'https://bitbucket.org/philexander/tikz'

@@ -36,7 +36,8 @@
     See README.rst file for details
 
     Author: Christoph Reller <christoph.reller@gmail.com>
-    Version: 0.4.2
+            Roland Puntaier <roland.puntaier@gmail.com>
+
 """
 
 import contextlib
@@ -168,7 +169,7 @@ class TikzDirective(Directive):
             else:
                 node['tikz'] = '\n'.join(self.content)
                 node['caption'] = '\n'.join(self.arguments)
-        
+
         node['libs'] = self.options.get('libs', '')
         if 'stringsubst' in self.options:
             node['stringsubst'] = True
@@ -402,6 +403,7 @@ def builder_inited(app):
         sty.close()
 
         app.builder.config.latex_additional_files.append(sty_path)
+        app.add_latex_package("sphinxcontribtikz")
 
 
 def which(program):
