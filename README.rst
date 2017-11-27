@@ -15,10 +15,11 @@ without further notice.
 
 ----
 
-:Version: 0.4.2
+:Version: 0.4.5
 :Author: Christoph Reller ``christoph.reller@gmail.com``
 :License: `BSD License <http://opensource.org/licenses/bsd-license.html>`__
-:Git Repository: https://bitbucket.org/philexander/tikz
+:Original Git Repository: https://bitbucket.org/philexander/tikz
+:Git Repository: https://github.com/rpuntaie/tikz
 :PyPI Package: http://pypi.python.org/pypi/sphinxcontrib-tikz
 
 Prerequisites and Configuration
